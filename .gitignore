@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# dotenv environment file (contains secrets)
+.env
+.env.*   
+.secret*
+*credentials*.json
+
+# VS Code settings 
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding UTF8 .gitignore
+
+
+# Streamlit cache (if used)
+.streamlit/
